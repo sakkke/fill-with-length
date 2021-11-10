@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sakkke/fill-with-length/issues"
   },
-  "homepage": "https://github.com/sakkke/fill-with-length#readme"
+  "homepage": "https://github.com/sakkke/fill-with-length#readme",
+  "devDependencies": {
+    "esbuild": "^0.13.13"
+  }
 }
