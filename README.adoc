@@ -1,0 +1,16 @@
+= fill-with-length
+
+== Usage
+
+[source,js]
+----
+import fill from 'fill-with-length'
+
+const iterable = ['foo', 'bar', 'baz']
+
+console.log(fill(iterable, 0)) // []
+console.log(fill(iterable, 2)) // ['foo', 'bar']
+console.log(fill(iterable, 4)) // ['foo', 'bar', 'baz', 'foo']
+console.log(fill(iterable, 6)) // ['foo', 'bar', 'baz', 'foo', 'bar', 'baz']
+console.log(fill(iterable, 8)) // ['foo', 'bar', 'baz', 'foo', 'bar', 'baz', 'foo', 'bar']
+----
