@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sakkke/fill-with-length#readme",
   "devDependencies": {
-    "esbuild": "^0.13.13"
+    "esbuild": "^0.13.13",
+    "jest": "^27.3.1"
   }
 }
