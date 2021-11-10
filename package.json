@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "esbuild --minify --outdir=dist --sourcemap index.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
