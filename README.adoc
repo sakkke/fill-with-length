@@ -14,3 +14,7 @@ console.log(fill(iterable, 4)) // ['foo', 'bar', 'baz', 'foo']
 console.log(fill(iterable, 6)) // ['foo', 'bar', 'baz', 'foo', 'bar', 'baz']
 console.log(fill(iterable, 8)) // ['foo', 'bar', 'baz', 'foo', 'bar', 'baz', 'foo', 'bar']
 ----
+
+== License
+
+MIT
