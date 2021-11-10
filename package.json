@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "build": "esbuild --minify --outdir=dist --sourcemap index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
