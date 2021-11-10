@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Fill with length",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "build": "esbuild --minify --outdir=dist --sourcemap index.js",
