@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "esbuild --minify --outdir=dist --sourcemap index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
